@@ -2,9 +2,8 @@
 
 Este repositório reúne alguns exercícios práticos de SQL voltados para análise de dados, usando cenários de negócio simulados.
 
-A ideia foi treinar não só a escrita das queries, mas também o raciocínio por trás dos dados — entender o problema e extrair informações úteis.
+A ideia foi treinar não só a escrita das queries, mas também o raciocínio por trás dos dados ,entender o problema e extrair informações úteis.
 
----
 
 ## Casos trabalhados
 
@@ -16,7 +15,7 @@ Considerei apenas clientes com mais de 10 transações para filtrar quem realmen
 
 A ideia é que esse tipo de cliente pode ser mais interessante para ações de fidelização.
 
----
+
 
 ### Clientes inativos
 
@@ -26,7 +25,7 @@ Usei `LEFT JOIN` com `IS NULL` para encontrar quem está cadastrado mas nunca in
 
 Esse grupo é importante porque pode ser trabalhado com campanhas de reativação.
 
----
+
 
 ### Comportamento de resgate
 
@@ -36,7 +35,7 @@ Usei `COUNT(DISTINCT IdTransacao)` para evitar duplicidade, já que uma transaç
 
 Isso ajuda a entender melhor o comportamento de consumo.
 
----
+
 
 ### Categorias de produtos
 
@@ -44,14 +43,14 @@ Nesse exercício, o objetivo foi ver quais categorias são mais populares e de q
 
 Isso pode ajudar a entender onde vale mais a pena investir ou quais produtos têm mais saída.
 
----
+
 
 ## Tecnologias
 
 * SQL (SQLite)
 * DBeaver
 
----
+
 Observação
 
 Os dados são simulados e o foco aqui foi praticar:
